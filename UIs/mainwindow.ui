@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>975</width>
-    <height>656</height>
+    <width>793</width>
+    <height>553</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -64,7 +64,7 @@
      </layout>
     </item>
     <item row="0" column="1">
-     <widget class="imgWidget" name="imgDisp" native="true">
+     <widget class="imgWidget" name="widget" native="true">
       <property name="minimumSize">
        <size>
         <width>640</width>
@@ -80,8 +80,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>975</width>
-     <height>26</height>
+     <width>793</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
@@ -100,7 +100,7 @@
   <customwidget>
    <class>imgWidget</class>
    <extends>QWidget</extends>
-   <header>imgwidget.h</header>
+   <header>imgWidget.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
